@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"); /* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'); /* General styles */
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +11,16 @@
 }
 
 body {
-  font-family: "Nunito Sans", sans-serif;
-  background: url("../Images/Home_Page/Grid_Home.png") repeat,
+  font-family: 'Nunito Sans', sans-serif;
+  background: url('../Images/Home_Page/Grid_Home.png') repeat,
     /* Static Grid image */
-      linear-gradient(to right, rgba(0, 28, 48, 0.7), rgba(52, 12, 24, 0.7)),
-    /* Gradient */ url("../Images/Work_Page/work_bg.png") no-repeat center
-      center/cover;
+      linear-gradient(
+        to right,
+        rgba(0, 28, 48, 0.7),
+        rgba(52, 12, 24, 0.7)
+      ),
+    /* Gradient */ url('../Images/Work_Page/work_bg.png') no-repeat
+      center center/cover;
   background-attachment: fixed, scroll, scroll;
   animation: bg-animation 1s linear infinite;
   color: white;
@@ -56,7 +60,7 @@ nav {
 }
 
 .nav-links a {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 700;
   color: white;
   text-decoration: none;
@@ -113,7 +117,7 @@ nav {
 }
 
 .back-button .button-text {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-top: 4px;
@@ -166,7 +170,7 @@ nav {
 }
 
 .link-text {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #888;
@@ -220,7 +224,7 @@ nav {
 }
 
 .problem-title {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 25px;
   font-weight: 900;
   color: #ffab46;
@@ -235,7 +239,7 @@ nav {
 }
 
 .problem-detail {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #c5c5c5;
@@ -265,7 +269,7 @@ nav {
   width: 396px;
 }
 h4 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 900;
   color: #ffab46;
   font-size: 25px;
@@ -278,7 +282,7 @@ h4 {
   list-style-type: none;
 }
 li {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #e0e0e0;
@@ -307,7 +311,7 @@ li strong {
   }
 }
 .solution-sneak-peak {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   width: 1200px;
   padding: 80px; /* Optional: Adjust padding as needed */
   color: #fff;
@@ -317,7 +321,7 @@ li strong {
   border-radius: 20px;
 }
 .solution-sneak-peak h2 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 900;
   color: #ffab46;
@@ -359,7 +363,7 @@ li strong {
 }
 
 .number span {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 80px;
   font-weight: 700;
   color: #ffffff;
@@ -371,7 +375,7 @@ li strong {
 }
 
 .text h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: #ffffff;
@@ -381,7 +385,7 @@ li strong {
   justify-content: flex-end;
 }
 .solution-text p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -398,14 +402,32 @@ li strong {
 #designprocess {
   margin: 0 14%;
   margin-bottom: 100px;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 1200px;
+  padding: 80px;
+  color: #fff;
+  background-color: #171717;
+  box-shadow: 2px 2px 20px 1px #ffffff1a;
+  border-radius: 20px;
 }
 .design-image {
   max-width: 1200px; /* Fixed width */
-  border-radius: 20px; /* Rounded corners */
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%; /* Rounded corners */
+}
+
+#designprocess h2 {
+  font-size: 30px;
+  margin: 0 0 60px -40px;
+  font-weight: 900;
+  line-height: 40.92px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #ffab46;
 }
 
 #deskresearch {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   width: 1200px;
   padding: 80px;
   color: #fff;
@@ -421,7 +443,7 @@ li strong {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 #deskresearch .desk-text {
@@ -458,7 +480,7 @@ li strong {
 }
 
 #deskresearch .inner-container-3w .content-1 .content-class span {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-image: linear-gradient(
     to right,
     rgba(255, 171, 70, 1),
@@ -469,15 +491,19 @@ li strong {
   font-size: 32px;
   font-weight: bold;
 }
-#deskresearch .inner-container-3w .content-1 .content-class .normal-content {
-  font-family: "Nunito Sans", sans-serif;
+#deskresearch
+  .inner-container-3w
+  .content-1
+  .content-class
+  .normal-content {
+  font-family: 'Nunito Sans', sans-serif;
   color: white;
   font-size: 28px;
   font-weight: 400;
 }
 
 #deskresearch .inner-container-3w .content-2 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #919191;
   font-size: 20px;
   font-weight: 300;
@@ -522,7 +548,7 @@ li strong {
 }
 
 #literature-review .review-card {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   position: relative;
   width: 310px;
   height: 310px;
@@ -566,7 +592,11 @@ li strong {
   margin-top: 20px;
   border-top: 1px solid #ffab46;
   border-left: 1px solid #ffab46;
-  background: linear-gradient(135deg, rgba(255, 171, 70, 0.5) 50%, #171717 50%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 171, 70, 0.5) 50%,
+    #171717 50%
+  );
 }
 
 /* Literature Review Code ends */
@@ -585,7 +615,7 @@ li strong {
 }
 
 .insights h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
@@ -622,7 +652,7 @@ li strong {
 /* Problem Statment Section Starts */
 
 #problem-statement {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -638,7 +668,7 @@ li strong {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffa149;
 }
 
@@ -683,7 +713,7 @@ li strong {
 }
 
 #pilot-study {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -699,7 +729,7 @@ li strong {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
@@ -714,7 +744,7 @@ li strong {
 }
 
 h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
@@ -766,7 +796,7 @@ h3 {
   flex-direction: column;
   margin-left: 56px;
 }
- .bold-type {
+.bold-type {
   font-weight: 800;
   font-size: 20px;
 }
@@ -849,7 +879,10 @@ h3 {
   gap: 24px;
 }
 
-#pilot-study .stakeholders-research-card-container .all-cards .card-1 {
+#pilot-study
+  .stakeholders-research-card-container
+  .all-cards
+  .card-1 {
   width: 304px;
   height: 326px;
   border: 1px solid #ffab46;
@@ -860,21 +893,34 @@ h3 {
   padding: 24px 12px;
 }
 
-#pilot-study .stakeholders-research-card-container .all-cards .card-1 .heading {
+#pilot-study
+  .stakeholders-research-card-container
+  .all-cards
+  .card-1
+  .heading {
   display: flex;
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
 }
 
-#pilot-study .stakeholders-research-card-container .all-cards .card-1 li {
+#pilot-study
+  .stakeholders-research-card-container
+  .all-cards
+  .card-1
+  li {
   margin-left: 16px;
   font-size: 18px;
   font-weight: 400;
   color: #919191;
 }
 
-#pilot-study .stakeholders-research-card-container .all-cards .card-1 li span {
+#pilot-study
+  .stakeholders-research-card-container
+  .all-cards
+  .card-1
+  li
+  span {
   font-weight: 700;
   color: white;
 }
@@ -956,7 +1002,7 @@ h3 {
 
 /* Text styling */
 .number-text p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32.74px;
@@ -979,7 +1025,7 @@ h3 {
 /* StackHolder Section Starts */
 
 #stackholder-section {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -995,7 +1041,7 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
@@ -1020,7 +1066,10 @@ h3 {
   flex-direction: column;
   gap: 20px;
 }
-#stackholder-section .sh-content-2-container .inside-content .heading {
+#stackholder-section
+  .sh-content-2-container
+  .inside-content
+  .heading {
   font-size: 27px;
   color: white;
   font-weight: 700;
@@ -1061,7 +1110,7 @@ h3 {
 }
 
 #research-section {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -1077,7 +1126,7 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
@@ -1092,7 +1141,7 @@ h3 {
 }
 
 #research-section h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
@@ -1209,7 +1258,7 @@ h3 {
 }
 
 #research-section .section-3-container .review-card {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   position: relative;
   width: 310px;
   height: 310px;
@@ -1219,7 +1268,10 @@ h3 {
   background-color: rgba(234, 182, 61, 0.1);
 }
 
-#research-section .section-3-container .review-card .review-card-container {
+#research-section
+  .section-3-container
+  .review-card
+  .review-card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1263,7 +1315,11 @@ h3 {
   margin-top: 20px;
   border-top: 1px solid #ffab46;
   border-left: 1px solid #ffab46;
-  background: linear-gradient(135deg, rgba(255, 171, 70, 0.5) 50%, #171717 50%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 171, 70, 0.5) 50%,
+    #171717 50%
+  );
 }
 /* Code Ends */
 
@@ -1286,13 +1342,19 @@ h3 {
   font-weight: bold;
 }
 
-#research-section .insights-container .content-container-1 .pilot-content-1 {
+#research-section
+  .insights-container
+  .content-container-1
+  .pilot-content-1 {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-#research-section .insights-container .content-container-1 .pilot-content-2 {
+#research-section
+  .insights-container
+  .content-container-1
+  .pilot-content-2 {
   font-size: 18px;
   font-weight: 400;
   color: #919191;
@@ -1316,7 +1378,7 @@ h3 {
 }
 
 #m-c-study {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -1337,12 +1399,12 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
 #m-c-study h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
@@ -1411,7 +1473,7 @@ h3 {
 
 #m-c-study .curr-tools .box-content {
   padding: 15px 24px;
-  border: 1px solid rgba(255,171,70, 0.3);
+  border: 1px solid rgba(255, 171, 70, 0.3);
   background-color: rgba(60, 60, 60, 0.3);
   color: white;
   border-radius: 10px;
@@ -1473,14 +1535,14 @@ h3 {
 }
 
 .end-card-content h2 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-size: 35px;
   margin-bottom: 30px;
 }
 
 .end-card-content .end-tags {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-style: italic;
   font-weight: 300;
   color: #e07160;
@@ -1521,7 +1583,7 @@ h3 {
   width: 180px;
 }
 .end-button {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   max-width: 330px;
   display: flex;
   align-items: center;
@@ -1586,7 +1648,7 @@ h3 {
   color: #49d3ff;
 }
 .end-button-text a {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   line-height: 47.74px;
   font-size: 35px;
   font-weight: 700;
@@ -1599,7 +1661,7 @@ h3 {
 }
 
 #how-might-we {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #171717;
   padding: 80px;
   border-radius: 20px;
@@ -1614,7 +1676,7 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 .perspective {
@@ -1634,9 +1696,8 @@ h3 {
   color: #ffffff;
 }
 
-
 #ideation {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -1651,11 +1712,11 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 #ideation h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
@@ -1688,29 +1749,29 @@ h3 {
   font-weight: 700;
 }
 
-.box-container{
-  border: 1px solid rgba(255,171,70, 0.3);
+.box-container {
+  border: 1px solid rgba(255, 171, 70, 0.3);
   margin: 90px 40px;
   padding: 50px;
   border-radius: 20px;
 }
 
-.scammer-container{
+.scammer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.scammer-subclass-1{
+.scammer-subclass-1 {
   display: flex;
   align-items: center;
-  gap:20px;
+  gap: 20px;
 }
-.scammer-subclass-1 .big-text{
+.scammer-subclass-1 .big-text {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 96px;
   font-weight: 700;
   line-height: 130.94px;
-  width:10%;
+  width: 10%;
 }
 
 /* Findings Research Cards */
@@ -1722,8 +1783,8 @@ h3 {
   margin-top: 40px;
 }
 
-.box-container .scammer-container  .scammer-subclass-1 .review-card {
-  font-family: 'Inter' , sans-serif;
+.box-container .scammer-container .scammer-subclass-1 .review-card {
+  font-family: 'Inter', sans-serif;
   width: 200px;
   height: 200px;
   box-sizing: border-box;
@@ -1734,19 +1795,28 @@ h3 {
   justify-content: flex-start;
   align-items: center;
 }
-.box-container .scammer-container  .scammer-subclass-1 .all-cards .review-card .review-card-container {
+.box-container
+  .scammer-container
+  .scammer-subclass-1
+  .all-cards
+  .review-card
+  .review-card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:30px 0px;
+  padding: 30px 0px;
 }
 
-.box-container .scammer-container  .scammer-subclass-1 .all-cards .review-card
+.box-container
+  .scammer-container
+  .scammer-subclass-1
+  .all-cards
+  .review-card
   .review-card-container
   .content-1-info {
-  font-family: 'Inter' , sans-serif;
-  padding:10px;
+  font-family: 'Inter', sans-serif;
+  padding: 10px;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -1755,7 +1825,12 @@ h3 {
   text-align: center;
 }
 
-.box-container .scammer-container  .scammer-subclass-1 .all-cards .review-card .corner-border {
+.box-container
+  .scammer-container
+  .scammer-subclass-1
+  .all-cards
+  .review-card
+  .corner-border {
   position: absolute;
   width: 51px;
   height: 51px;
@@ -1763,12 +1838,16 @@ h3 {
   margin-left: 150px;
   border-top: 1px solid #ffab46;
   border-left: 1px solid #ffab46;
-  background: linear-gradient(135deg, rgba(255, 171, 70, 0.5) 50%, #171717 50%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 171, 70, 0.5) 50%,
+    #171717 50%
+  );
 }
 .box-content {
-  margin-top:50px;
+  margin-top: 50px;
   padding: 15px 24px;
-  border: 1px solid rgba(255,171,70, 0.3);
+  border: 1px solid rgba(255, 171, 70, 0.3);
   background-color: rgba(60, 60, 60, 0.3);
   color: white;
   border-radius: 10px;
@@ -1777,13 +1856,13 @@ h3 {
   text-align: center;
   width: 631px;
 }
-.cd-text{
-  display:flex;
+.cd-text {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.box-container-mash{
-  border: 1px solid rgba(255,171,70, 0.3);
+.box-container-mash {
+  border: 1px solid rgba(255, 171, 70, 0.3);
   margin: 90px 40px;
   padding: 50px;
   border-radius: 20px;
@@ -1795,29 +1874,30 @@ h3 {
   align-items: center;
   justify-content: space-between;
 }
-.box-column-1 , .box-column-2{
-  gap:20px;
-  display:flex;
+.box-column-1,
+.box-column-2 {
+  gap: 20px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 820px;
 }
 
-.box-container-grid .box-column-1 img{
-  width:580px;
+.box-container-grid .box-column-1 img {
+  width: 580px;
   height: 400px;
 }
-.box-container-grid .box-column-2 .long-img img{
-  width:360px;
+.box-container-grid .box-column-2 .long-img img {
+  width: 360px;
   height: 559px;
 }
-.box-container-grid .box-column-2 .small-img img{
-  width:360px;
+.box-container-grid .box-column-2 .small-img img {
+  width: 360px;
   height: 231px;
 }
 
 #infoarch {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -1832,7 +1912,7 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
@@ -1845,12 +1925,12 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
 .solution-sneak-peak {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   width: 1200px;
   padding: 80px; /* Optional: Adjust padding as needed */
   color: #fff;
@@ -1860,7 +1940,7 @@ h3 {
   border-radius: 20px;
 }
 .solution-sneak-peak h2 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 900;
   color: #ffab46;
@@ -1892,11 +1972,11 @@ h3 {
   padding: 6%;
 }
 
-.interative-prototype-button{
+.interative-prototype-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:20px;
+  margin-top: 20px;
 }
 /* Button styling for both buttons */
 .button {
@@ -1937,26 +2017,26 @@ h3 {
   filter: invert(1); /* Inverts color from black to white */
   transition: filter 0.3s ease;
 }
-.final-concepts-image-container{
-  border: 1px solid rgba(255,171,70, 0.3);
+.final-concepts-image-container {
+  border: 1px solid rgba(255, 171, 70, 0.3);
   margin: 90px 10px;
   padding: 50px;
   border-radius: 20px;
 }
 
-.grid-container{
+.grid-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap: 20px;
 }
-.grid-container img{
+.grid-container img {
   width: 170px;
   height: 350px;
 }
-.image-grid-item{
-  margin:5px;
+.image-grid-item {
+  margin: 5px;
 }
 
 .source-container {
@@ -1965,7 +2045,7 @@ h3 {
   width: 100%;
 }
 .source {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #919191;
@@ -1983,9 +2063,8 @@ h3 {
   color: #ffffff;
 }
 
-
 #visualdesign {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -2000,7 +2079,7 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 #visualdesign p {
@@ -2013,7 +2092,7 @@ h3 {
 }
 
 #usertesting {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
   background-color: #171717;
   padding: 80px;
@@ -2028,7 +2107,7 @@ h3 {
   margin: 0 0 60px -40px;
   font-weight: 900;
   line-height: 40.92px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffab46;
 }
 
@@ -2046,11 +2125,11 @@ h3 {
 }
 
 /* Numbers */
-.insights-container h3{
-  margin-top:35px;
+.insights-container h3 {
+  margin-top: 35px;
 }
 .insight h5 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 96px;
   font-weight: 700;
   line-height: 130.94px;
@@ -2058,7 +2137,7 @@ h3 {
 }
 
 .insight h4 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 42px;
@@ -2100,7 +2179,7 @@ footer {
 }
 
 .footer-container p {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.82px;
