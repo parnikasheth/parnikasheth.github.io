@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: url('../Images/Home_Page/Grid_Home.png') repeat,
+    /* Static Grid image */
+      linear-gradient(
+        to right,
+        rgba(0, 28, 48, 0.7),
+        rgba(52, 12, 24, 0.7)
+      ),
+    /* Gradient */ url('../Images/Work_Page/work_bg.png') no-repeat
+      center center/cover;
+  background-attachment: fixed;
+  /* background-position: center; */
+
+  animation: bg-animation 1s linear infinite;
+  color: white;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #202020;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: 0 0 3% 3%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 50px;
+  padding-left: 100px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  transition: color 0.3s;
+  padding-right: 60px;
+}
+
+.nav-links a:hover {
+  color: #49d3ff;
+}
+
+.nav-links .work-active {
+  color: #49d3ff;
+}
+
+.container {
+  display: flex;
+  margin-top: 150px; /* Leave space for sticky header */
+}

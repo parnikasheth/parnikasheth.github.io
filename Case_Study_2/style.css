@@ -21,7 +21,7 @@ body {
       ),
     /* Gradient */ url('../Images/Work_Page/work_bg.png') no-repeat
       center center/cover;
-  background-attachment: fixed, scroll, scroll;
+  background-attachment: fixed;
   animation: bg-animation 1s linear infinite;
   color: white;
   margin: 0 auto;
@@ -88,7 +88,7 @@ nav {
 } */
 
 .back-button {
-  margin-left: 14%; /* Adjust margin for better alignment */
+  margin-left: 10%; /* Adjust margin for better alignment */
   padding: 8px 12px; /* Add padding for more click area */
   display: flex;
   align-items: center;
@@ -197,12 +197,15 @@ nav {
 
 #overview {
   margin-left: 50px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
+  max-width: 80%;
 }
 
 .overview-image {
-  max-width: 1200px; /* Fixed width */
+  max-width: 100%;
+  width: 100%;
+  height: 100%; /* Fixed width */
   border-radius: 20px; /* Rounded corners */
 }
 
@@ -213,14 +216,14 @@ nav {
   border-radius: 20px;
   color: #fff;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
+  width: 100%;
 }
 
 /* Problem Statement */
 .problem-statement {
   margin-bottom: 30px;
   padding: 20px;
-  width: 1200px;
+  width: 100%;
 }
 
 .problem-title {
@@ -249,7 +252,7 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-top: 61px;
-  width: 1200px;
+  width: 100%;
 }
 
 .project-details div {
@@ -257,16 +260,18 @@ nav {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  max-height: 260px;
+  max-width: 100%;git 
+  max-height: 100%;
+  width: 40vh;
 }
 .role {
-  width: 396px;
+  /* width: 396px; */
 }
 .details {
-  width: 323px;
+  /* width: 323px; */
 }
 .deliverables {
-  width: 396px;
+  /* width: 396px; */
 }
 h4 {
   font-family: 'Nunito Sans', sans-serif;
