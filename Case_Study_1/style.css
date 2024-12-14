@@ -44,6 +44,10 @@ nav {
   align-items: center;
 }
 
+img {
+  max-width: 100%;
+}
+
 .logo-container img {
   height: 50px;
   padding-left: 100px;
@@ -261,15 +265,7 @@ nav {
   max-height: 100%;
   width: 40vh;
 }
-.role {
-  /* width: 396px; */
-}
-.details {
-  /* width: 323px; */
-}
-.deliverables {
-  /* width: 396px; */
-}
+
 h4 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 900;
@@ -1235,9 +1231,6 @@ li strong {
   margin-bottom: 25px;
 }
 
-#ideation img {
-  max-width: 100%;
-}
 .ideation-intro {
   font-size: 20px;
   font-weight: 400;
@@ -1434,10 +1427,6 @@ li strong {
   margin-bottom: 30px;
 }
 
-#infoarch img {
-  width: 100%;
-}
-
 #visualdesign {
   font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
@@ -1465,6 +1454,7 @@ li strong {
   line-height: 32.74px;
   margin-bottom: 30px;
 }
+
 #finalconcepts {
   margin: 0 10%;
   margin-bottom: 100px;
