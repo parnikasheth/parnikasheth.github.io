@@ -21,7 +21,7 @@ body {
       ),
     /* Gradient */ url('../Images/Work_Page/work_bg.png') no-repeat
       center center/cover;
-  background-attachment: fixed, scroll, scroll;
+  background-attachment: fixed;
   animation: bg-animation 1s linear infinite;
   color: white;
   margin: 0 auto;
@@ -37,9 +37,7 @@ header {
   z-index: 10;
   border-radius: 0 0 3% 3%;
 }
-img {
-  max-width: 1000px;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -88,7 +86,7 @@ nav {
 } */
 
 .back-button {
-  margin-left: 14%; /* Adjust margin for better alignment */
+  margin-left: 10%; /* Adjust margin for better alignment */
   padding: 8px 12px; /* Add padding for more click area */
   display: flex;
   align-items: center;
@@ -134,10 +132,10 @@ nav {
 .sticky-sidebar {
   position: -webkit-sticky;
   position: sticky;
-  top: 150px;
+  top: 10%;
   width: 200px;
   background-color: #202020;
-  padding: 20px;
+  padding: 18px;
   height: max-content;
   border-radius: 20px;
   backdrop-filter: blur(800px);
@@ -150,7 +148,7 @@ nav {
 }
 
 .sticky-sidebar li {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .sticky-sidebar li a {
@@ -197,12 +195,14 @@ nav {
 
 #overview {
   margin-left: 50px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
+  max-width: 100%;
 }
 
 .overview-image {
-  max-width: 1200px; /* Fixed width */
+  width: 100%;
+  height: 100%; /* Fixed width */
   border-radius: 20px; /* Rounded corners */
 }
 
@@ -213,14 +213,14 @@ nav {
   border-radius: 20px;
   color: #fff;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
+  /* width: 1200px; */
 }
 
 /* Problem Statement */
 .problem-statement {
   margin-bottom: 30px;
   padding: 20px;
-  width: 1200px;
+  /* width: 1200px; */
 }
 
 .problem-title {
@@ -249,7 +249,7 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-top: 61px;
-  width: 1200px;
+  /* width: 1200px; */
 }
 
 .project-details div {
@@ -257,16 +257,18 @@ nav {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  max-height: 260px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 40vh;
 }
 .role {
-  width: 396px;
+  /* width: 396px; */
 }
 .details {
-  width: 323px;
+  /* width: 323px; */
 }
 .deliverables {
-  width: 396px;
+  /* width: 396px; */
 }
 h4 {
   font-family: 'Nunito Sans', sans-serif;
@@ -312,7 +314,7 @@ li strong {
 }
 .solution-sneak-peak {
   font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
+  /* width: 1200px; */
   padding: 80px; /* Optional: Adjust padding as needed */
   color: #fff;
   background-color: #171717;
@@ -337,7 +339,7 @@ li strong {
   display: flex;
   justify-content: space-between; /* Space between image and text */
   align-items: center;
-  max-width: 1200px; /* Adjust as per your requirement */
+  /* max-width: 1200px; Adjust as per your requirement */
 }
 
 .solution-image img {
@@ -401,17 +403,17 @@ li strong {
 
 #designprocess {
   font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
+  /* width: 100%; */
   padding: 80px;
   color: #fff;
   background-color: #171717;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
   border-radius: 20px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 .design-image {
-  max-width: 1200px; /* Fixed width */
+  /* max-width: 1200px; Fixed width */
   border-radius: 20px; /* Rounded corners */
   max-width: 100%;
   max-height: 100%;
@@ -420,13 +422,13 @@ li strong {
 
 #deskresearch {
   font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
+  /* width: 1200px; */
   padding: 80px;
   color: #fff;
   background-color: #171717;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
   border-radius: 20px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -588,8 +590,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -664,8 +666,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -723,8 +725,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -1177,8 +1179,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #how-might-we h2 {
@@ -1212,8 +1214,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #ideation h2 {
@@ -1244,8 +1246,8 @@ li strong {
   width: 90%;
 }
 .idea-exploration-img {
-  max-width: 1000px;
-  max-height: 892px;
+  max-width: 100%;
+  /* max-height: 892px; */
 }
 .idea-exploration p {
   margin-top: 40px;
@@ -1399,8 +1401,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #infoarch h2 {
@@ -1435,8 +1437,8 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  /* width: 1200px; */
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #visualdesign h2 {
@@ -1456,11 +1458,11 @@ li strong {
   margin-bottom: 30px;
 }
 #finalconcepts {
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #usertesting {
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
   font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
@@ -1468,7 +1470,7 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
+  /* width: 1200px; */
 }
 #usertesting h2 {
   font-size: 30px;
@@ -1478,10 +1480,7 @@ li strong {
   font-family: 'Nunito Sans', sans-serif;
   color: #5c50b4;
 }
-#usertesting {
-  margin: 0 14%;
-  margin-bottom: 100px;
-}
+
 .usertesting-container {
   display: flex;
   justify-content: center;
@@ -1500,7 +1499,7 @@ li strong {
 }
 
 #learnings {
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
   font-family: 'Nunito Sans', sans-serif;
   color: #c5c5c5;
@@ -1508,7 +1507,7 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
+  /* width: 1200px; */
 }
 
 #learnings p {
@@ -1547,11 +1546,11 @@ li strong {
   background-color: #171717;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
   overflow: hidden;
-  width: 1200px;
+  /* width: 1200px; */
   height: 440px;
   padding: 41px;
   align-items: center;
-  margin: 0 14%;
+  margin: 0 10%;
 }
 
 .end-card-content {
@@ -1637,13 +1636,13 @@ li strong {
   filter: invert(0); /* Reverts the color back to black on hover */
 }
 
-#designprocess {
+/* #designprocess {
   margin: 0 14%;
   margin-bottom: 100px;
-}
+} */
 
 .end-back-button {
-  margin-left: 14%; /* Adjust margin for better alignment */
+  margin-left: 10%; /* Adjust margin for better alignment */
   padding: 8px 12px; /* Add padding for more click area */
   display: flex;
   align-items: center;
