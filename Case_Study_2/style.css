@@ -260,7 +260,7 @@ nav {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  max-width: 100%;git 
+  max-width: 100%;
   max-height: 100%;
   width: 40vh;
 }
@@ -317,7 +317,7 @@ li strong {
 }
 .solution-sneak-peak {
   font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
+  width: 100%;
   padding: 80px; /* Optional: Adjust padding as needed */
   color: #fff;
   background-color: #171717;
@@ -405,10 +405,10 @@ li strong {
 }
 
 #designprocess {
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
   font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
+
   padding: 80px;
   color: #fff;
   background-color: #171717;
@@ -416,10 +416,10 @@ li strong {
   border-radius: 20px;
 }
 .design-image {
-  max-width: 1200px; /* Fixed width */
+  /* Fixed width */
   border-radius: 20px;
   max-width: 100%;
-  max-height: 100%; /* Rounded corners */
+  /* Rounded corners */
 }
 
 #designprocess h2 {
@@ -433,13 +433,13 @@ li strong {
 
 #deskresearch {
   font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
+
   padding: 80px;
   color: #fff;
   background-color: #171717;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
   border-radius: 20px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -663,8 +663,7 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -724,8 +723,7 @@ li strong {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -1036,8 +1034,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -1121,8 +1118,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -1389,8 +1385,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -1618,11 +1613,6 @@ h3 {
   filter: invert(0); /* Reverts the color back to black on hover */
 }
 
-#designprocess {
-  margin: 0 14%;
-  margin-bottom: 100px;
-}
-
 .end-back-button {
   margin-left: 14%; /* Adjust margin for better alignment */
   padding: 8px 12px; /* Add padding for more click area */
@@ -1671,8 +1661,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 
@@ -1708,8 +1697,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #ideation h2 {
@@ -1908,8 +1896,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #infoarch h2 {
@@ -1922,7 +1909,7 @@ h3 {
 }
 
 #finalconcepts {
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #finalconcepts h2 {
@@ -1934,16 +1921,6 @@ h3 {
   color: #ffab46;
 }
 
-.solution-sneak-peak {
-  font-family: 'Nunito Sans', sans-serif;
-  width: 1200px;
-  padding: 80px; /* Optional: Adjust padding as needed */
-  color: #fff;
-  background-color: #171717;
-  box-shadow: 2px 2px 20px 1px #ffffff1a;
-  margin-top: 62px;
-  border-radius: 20px;
-}
 .solution-sneak-peak h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 30px;
@@ -2075,8 +2052,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #visualdesign h2 {
@@ -2103,8 +2079,7 @@ h3 {
   padding: 80px;
   border-radius: 20px;
   box-shadow: 2px 2px 20px 1px #ffffff1a;
-  width: 1200px;
-  margin: 0 14%;
+  margin: 0 10%;
   margin-bottom: 100px;
 }
 #usertesting h2 {
